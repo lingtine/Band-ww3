@@ -1,0 +1,116 @@
+@media (min-width: 64em){
+    #header .mobileMenu{
+        display: none;
+    }
+}
+
+@media (max-width: 63.9375em){
+    #content .tour-text-place .buy-ticket{
+        padding: 15px 16px;
+    }
+
+    #content .form-control {
+        padding: 15px;
+    }
+
+
+    #contact .contact-place{
+        padding: 4px 0px;
+    }
+
+    #footer .foorter-content-sub {
+        padding-top: 12px;
+        font-size: 24px;
+    }
+}
+
+@media(max-width:63.9375em) and (min-width:46.25em){
+    #header .mobileMenu{
+        display: none;
+    }
+
+    #footer .footer-content a {
+        font-size: 48px;
+        margin: 0px 16px;
+    }
+}
+
+
+
+@media (max-width: 46.1875em) {
+
+    .s-full-width{
+        width: 100% !important;
+
+    }
+
+    .s-cul-full{
+
+        width: 100% !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+
+    #nav {
+        display: block;
+    }
+    #nav .subnav{
+        background-color: #333;
+        position: initial;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    
+
+    #header .search-button {
+        display: none;
+    }
+
+    #content .memeber-item-mobile{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #content .memeber-item-mobile .memeber-picture{
+        width: 60%;
+    }
+    #content .tour-places .tour-place-moblie{
+        width:100%;
+    }
+    .contact-input{
+        margin-top: 8px;
+    }
+    .input-half-sub{
+        margin-top: 8px;
+    }
+    #content .contact-send {
+        padding:12px 22px;
+    }
+
+    #footer .footer-content a {
+        font-size: 18px;
+        margin: 0px 4px;
+    }
+
+    #footer .foorter-content-sub{
+        font-size: 20px;
+
+    }
+}
